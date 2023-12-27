@@ -4,6 +4,7 @@
 
 ## Overview
 This project is an online store dedicated to furnishing and designing homes. It's a demonstration of My web development skills and showcases a website interface for an online store concept.
+The Design was gotten from Figma 
 
 ## Technologies Used
 - HTML
