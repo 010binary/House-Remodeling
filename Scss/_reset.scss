@@ -1,0 +1,22 @@
+
+// Color configuration
+$primary-color: #D8A876;
+$secondary-color: #292F36;
+$accent-color: #C76904;
+$white: #fff;
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+// @media(prefers-color-scheme:dark){
+//     $white: #000;
+//     $primary-color: #D8A876;
+//     $secondary-color: #292F36;
+//     $accent-color: #C76904;
+// }
