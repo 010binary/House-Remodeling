@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
@@ -11,8 +13,37 @@
 }
 
 body {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+.pageTwo .textContent button, .hero .text button {
+  margin-top: 2rem;
+  border: none;
+  padding: 15px 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #fff;
+}
+.pageTwo .textContent button svg, .hero .text button svg {
+  width: 12px;
+}
+
+.reviews .section1 .heads p,
+.reviews .section2 .heads p,
+.reviews .section3 .heads p, .reviews h3, .pageTwo .textContent h2, .hero .text h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3.1rem;
+  color: #fff;
+}
+.reviews .section1 .heads p span,
+.reviews .section2 .heads p span,
+.reviews .section3 .heads p span, .reviews h3 span, .pageTwo .textContent h2 span, .hero .text h1 span {
+  display: block;
 }
 
 *,
@@ -24,8 +55,37 @@ body {
 }
 
 body {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+.pageTwo .textContent button, .hero .text button {
+  margin-top: 2rem;
+  border: none;
+  padding: 15px 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #fff;
+}
+.pageTwo .textContent button svg, .hero .text button svg {
+  width: 12px;
+}
+
+.reviews .section1 .heads p,
+.reviews .section2 .heads p,
+.reviews .section3 .heads p, .reviews h3, .pageTwo .textContent h2, .hero .text h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3.1rem;
+  color: #fff;
+}
+.reviews .section1 .heads p span,
+.reviews .section2 .heads p span,
+.reviews .section3 .heads p span, .reviews h3 span, .pageTwo .textContent h2 span, .hero .text h1 span {
+  display: block;
 }
 
 header {
@@ -81,11 +141,6 @@ header nav .navitems ul li svg {
   top: 10%;
   left: 4%;
 }
-.hero .text h1 {
-  font-family: "DM Serif Display", serif;
-  font-size: 3.1rem;
-  color: #fff;
-}
 .hero .text h1 span {
   display: block;
 }
@@ -99,18 +154,153 @@ header nav .navitems ul li svg {
   display: block;
 }
 .hero .text button {
-  margin-top: 2rem;
-  border: none;
-  padding: 15px 2rem;
+  background-color: #D8A876;
+}
+
+.services {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.services .section1,
+.services .section2,
+.services .section3 {
+  text-align: center;
+}
+.services .section1 h1,
+.services .section2 h1,
+.services .section3 h1 {
+  font-size: 1.4rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.services .section1 p,
+.services .section2 p,
+.services .section3 p {
+  margin-top: 15px;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.033em;
+  color: #4D5053;
+}
+.services .section1 a,
+.services .section2 a,
+.services .section3 a {
+  display: block;
+  margin-top: 15px;
   text-transform: capitalize;
   font-weight: 600;
-  border-radius: 10px;
-  background-color: #D8A876;
+  font-family: "Jost", sans-serif;
+  color: #4D5053;
+  text-decoration: none;
+}
+.services .section1 a svg,
+.services .section2 a svg,
+.services .section3 a svg {
+  width: 20px;
+  padding-top: 8px;
+}
+
+.pageTwo {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.pageTwo img {
+  width: 100%;
+}
+.pageTwo .textContent {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+.pageTwo .textContent h2 {
+  font-size: 2.7rem;
+}
+.pageTwo .textContent p {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.pageTwo .textContent p span {
+  display: block;
+}
+.pageTwo .textContent .CallMe {
   display: flex;
   align-items: center;
-  gap: 7px;
-  color: #fff;
+  gap: 10px;
 }
-.hero .text button svg {
-  width: 12px;
+.pageTwo .textContent .CallMe span {
+  font-weight: 600;
+}
+.pageTwo .textContent .CallMe svg {
+  width: 50px;
+}
+.pageTwo .textContent button {
+  background-color: #D8A876;
+}
+
+.reviews {
+  padding: 50px 30px;
+  padding-bottom: 30px;
+  border-radius: 50px;
+  background-color: #D8A876;
+  margin-top: 50px;
+  width: 100%;
+}
+.reviews h3 {
+  text-align: center;
+}
+.reviews .review__message {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 60px;
+}
+.reviews .section1,
+.reviews .section2,
+.reviews .section3 {
+  padding: 20px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 300px;
+}
+.reviews .section1 .review__Text,
+.reviews .section2 .review__Text,
+.reviews .section3 .review__Text {
+  letter-spacing: 0.061em;
+  line-height: 1.6;
+  margin-top: 15px;
+  font-family: "Jost", sans-serif;
+}
+.reviews .section1 .heads,
+.reviews .section2 .heads,
+.reviews .section3 .heads {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviews .section1 .heads img,
+.reviews .section2 .heads img,
+.reviews .section3 .heads img {
+  width: 50px;
+}
+.reviews .section1 .heads p,
+.reviews .section2 .heads p,
+.reviews .section3 .heads p {
+  color: #292F36;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.reviews .section1 .heads p span,
+.reviews .section2 .heads p span,
+.reviews .section3 .heads p span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.reviews .section2,
+.reviews .section3 {
+  margin-left: 10px;
 }/*# sourceMappingURL=Home.css.map */

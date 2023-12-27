@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 
 // Color configuration
 $primary-color: #D8A876;
 $secondary-color: #292F36;
 $accent-color: #C76904;
 $white: #fff;
+$gray: #4D5053;
 $font: 'Jost', sans-serif;
+$header: 'DM Serif Display', serif;
+$paragraph: 'Inter', sans-serif;
 
 *,
 *::after,
@@ -16,8 +22,36 @@ $font: 'Jost', sans-serif;
 }
 
 body {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+// Basic Buttons
+%Button {
+    margin-top: 2rem;
+    border: none;
+    padding: 15px 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: $white;
+
+    svg {
+        width: 12px;
+    }
+}
+
+%header {
+    font-family: $header;
+    font-size: 3.1rem;
+    color: $white;
+
+    span {
+        display: block;
+    }
 }
 
 // @media(prefers-color-scheme:dark){

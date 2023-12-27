@@ -1,0 +1,83 @@
+.hero {
+    margin-top: 50px;
+    position: relative;
+    border-radius: 90px 0px 90px 0px;
+
+    img {
+        width: 100%;
+    }
+
+    .text {
+        position: absolute;
+        top: 10%;
+        left: 4%;
+
+        h1 {
+            @extend %header;
+
+            span {
+                display: block;
+            }
+        }
+
+        p {
+            font-family: $paragraph;
+            margin-top: 5px;
+            color: $white;
+            font-size: 1.2rem;
+
+            span {
+                display: block;
+            }
+        }
+
+        button {
+            @extend %Button;
+            background-color: $primary-color;
+        }
+    }
+}
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    .section1,
+    .section2,
+    .section3 {
+
+        text-align: center;
+
+        h1 {
+            font-size: 1.4rem;
+            font-family: $header;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+
+        p {
+            margin-top: 15px;
+            font-family: $font;
+            letter-spacing: 0.033em;
+            color: $gray;
+        }
+
+        a {
+            display: block;
+            margin-top: 15px;
+            text-transform: capitalize;
+            font-weight: 600;
+            font-family: $font;
+            color: $gray;
+            text-decoration: none;
+
+            svg {
+                width: 20px;
+                padding-top: 8px;
+            }
+        }
+    }
+
+}
