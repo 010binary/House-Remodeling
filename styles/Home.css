@@ -1,10 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 *,
 *::after,
 *::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
+}
+
+body {
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 *,
@@ -13,5 +21,96 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+header {
+  padding-top: 20px;
   font-family: "Jost", sans-serif;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .logo svg {
+  width: 10rem;
+  height: 2.2rem;
+}
+header nav .navitems {
+  width: 70%;
+}
+header nav .navitems ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding-top: 2px;
+  gap: 10px;
+}
+header nav .navitems ul li {
+  list-style: none;
+}
+header nav .navitems ul li a {
+  text-decoration: none;
+  color: #292F36;
+  text-transform: capitalize;
+}
+header nav .navitems ul li a.active {
+  color: #C76904;
+}
+header nav .navitems ul li svg {
+  width: 1.5rem;
+  height: 1.2em;
+  padding-top: 2px;
+}
+
+.hero {
+  margin-top: 50px;
+  position: relative;
+  border-radius: 90px 0px 90px 0px;
+}
+.hero img {
+  width: 100%;
+}
+.hero .text {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+}
+.hero .text h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3.1rem;
+  color: #fff;
+}
+.hero .text h1 span {
+  display: block;
+}
+.hero .text p {
+  font-family: "Inter", sans-serif;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.hero .text p span {
+  display: block;
+}
+.hero .text button {
+  margin-top: 2rem;
+  border: none;
+  padding: 15px 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #D8A876;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #fff;
+}
+.hero .text button svg {
+  width: 12px;
 }/*# sourceMappingURL=Home.css.map */

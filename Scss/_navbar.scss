@@ -1,1 +1,53 @@
 @import './reset';
+
+
+header {
+    padding-top: 20px;
+    font-family: $font;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+
+        .logo {
+            svg {
+                width: 10rem;
+                height: 2.2rem;
+            }
+        }
+
+        .navitems {
+            width: 70%;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 1.2rem;
+                padding-top: 2px;
+                gap: 10px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: $secondary-color;
+                        text-transform: capitalize;
+
+                        &.active {
+                            color: $accent-color;
+                        }
+                    }
+
+                    svg {
+                        width: 1.5rem;
+                        height: 1.2em;
+                        padding-top: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
