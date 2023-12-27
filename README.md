@@ -1,6 +1,6 @@
 # Flask Project
 
-![Project Image](images/Preview.jpg)
+![Project Image](/Images/Preview.jpg)
 
 ## Overview
 This project is an online store dedicated to furnishing and designing homes. It's a demonstration of My web development skills and showcases a website interface for an online store concept.
