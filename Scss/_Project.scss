@@ -1,0 +1,57 @@
+.projects {
+    .project__intro {
+        p {
+            text-align: center;
+            color: $secondary-color;
+            font-size: 1.5rem;
+            font-family: $font;
+
+            span {
+                display: block
+            }
+
+            .heading {
+                @extend %header;
+                color: $secondary-color;
+            }
+        }
+    }
+
+    .product {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 30px;
+
+        .sectionA,
+        .sectionB,
+        .sectionC,
+        .sectionD {
+            width: 50%;
+
+            img {
+                width: 90%;
+            }
+
+            .subsection {
+                p {
+                    font-family: $font;
+                    font-size: 1.3rem;
+                    color: $secondary-color;
+
+
+                    span {
+                        display: block;
+                    }
+
+                    .heading {
+                        @extend %header;
+                        color: $secondary-color;
+                        font-size: 1.3rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

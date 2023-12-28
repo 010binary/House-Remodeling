@@ -17,6 +17,10 @@ body {
   padding-right: 17%;
 }
 
+#svgHoverEffect:hover {
+  fill: #C76904;
+}
+
 .pageTwo .textContent button, .hero .text button {
   margin-top: 2rem;
   border: none;
@@ -33,14 +37,20 @@ body {
   width: 12px;
 }
 
-.reviews .section1 .heads p,
+.projects .product .sectionA .subsection p .heading,
+.projects .product .sectionB .subsection p .heading,
+.projects .product .sectionC .subsection p .heading,
+.projects .product .sectionD .subsection p .heading, .projects .project__intro p .heading, .reviews .section1 .heads p,
 .reviews .section2 .heads p,
 .reviews .section3 .heads p, .reviews h3, .pageTwo .textContent h2, .hero .text h1 {
   font-family: "DM Serif Display", serif;
   font-size: 3.1rem;
   color: #fff;
 }
-.reviews .section1 .heads p span,
+.projects .product .sectionA .subsection p .heading span,
+.projects .product .sectionB .subsection p .heading span,
+.projects .product .sectionC .subsection p .heading span,
+.projects .product .sectionD .subsection p .heading span, .projects .project__intro p .heading span, .reviews .section1 .heads p span,
 .reviews .section2 .heads p span,
 .reviews .section3 .heads p span, .reviews h3 span, .pageTwo .textContent h2 span, .hero .text h1 span {
   display: block;
@@ -59,6 +69,10 @@ body {
   padding-right: 17%;
 }
 
+#svgHoverEffect:hover {
+  fill: #C76904;
+}
+
 .pageTwo .textContent button, .hero .text button {
   margin-top: 2rem;
   border: none;
@@ -75,14 +89,20 @@ body {
   width: 12px;
 }
 
-.reviews .section1 .heads p,
+.projects .product .sectionA .subsection p .heading,
+.projects .product .sectionB .subsection p .heading,
+.projects .product .sectionC .subsection p .heading,
+.projects .product .sectionD .subsection p .heading, .projects .project__intro p .heading, .reviews .section1 .heads p,
 .reviews .section2 .heads p,
 .reviews .section3 .heads p, .reviews h3, .pageTwo .textContent h2, .hero .text h1 {
   font-family: "DM Serif Display", serif;
   font-size: 3.1rem;
   color: #fff;
 }
-.reviews .section1 .heads p span,
+.projects .product .sectionA .subsection p .heading span,
+.projects .product .sectionB .subsection p .heading span,
+.projects .product .sectionC .subsection p .heading span,
+.projects .product .sectionD .subsection p .heading span, .projects .project__intro p .heading span, .reviews .section1 .heads p span,
 .reviews .section2 .heads p span,
 .reviews .section3 .heads p span, .reviews h3 span, .pageTwo .textContent h2 span, .hero .text h1 span {
   display: block;
@@ -303,4 +323,65 @@ header nav .navitems ul li svg {
 .reviews .section2,
 .reviews .section3 {
   margin-left: 10px;
+}
+
+.company__affiliation {
+  margin-top: 50px;
+  display: flex;
+}
+.company__affiliation img {
+  width: 100%;
+}
+
+.projects .project__intro p {
+  text-align: center;
+  color: #292F36;
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+}
+.projects .project__intro p span {
+  display: block;
+}
+.projects .project__intro p .heading {
+  color: #292F36;
+}
+.projects .product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+.projects .product .sectionA,
+.projects .product .sectionB,
+.projects .product .sectionC,
+.projects .product .sectionD {
+  width: 50%;
+}
+.projects .product .sectionA img,
+.projects .product .sectionB img,
+.projects .product .sectionC img,
+.projects .product .sectionD img {
+  width: 90%;
+}
+.projects .product .sectionA .subsection p,
+.projects .product .sectionB .subsection p,
+.projects .product .sectionC .subsection p,
+.projects .product .sectionD .subsection p {
+  font-family: "Jost", sans-serif;
+  font-size: 1.3rem;
+  color: #292F36;
+}
+.projects .product .sectionA .subsection p span,
+.projects .product .sectionB .subsection p span,
+.projects .product .sectionC .subsection p span,
+.projects .product .sectionD .subsection p span {
+  display: block;
+}
+.projects .product .sectionA .subsection p .heading,
+.projects .product .sectionB .subsection p .heading,
+.projects .product .sectionC .subsection p .heading,
+.projects .product .sectionD .subsection p .heading {
+  color: #292F36;
+  font-size: 1.3rem;
+  font-weight: 600;
 }/*# sourceMappingURL=Home.css.map */

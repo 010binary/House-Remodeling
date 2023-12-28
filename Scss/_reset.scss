@@ -26,6 +26,12 @@ body {
     padding-right: 17%;
 }
 
+#svgHoverEffect {
+    &:hover {
+        fill: $accent-color;
+    }
+}
+
 // Basic Buttons
 %Button {
     margin-top: 2rem;
@@ -42,7 +48,9 @@ body {
     svg {
         width: 12px;
     }
+
 }
+
 
 %header {
     font-family: $header;
