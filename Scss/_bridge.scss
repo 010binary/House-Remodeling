@@ -1,0 +1,34 @@
+.brigde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0;
+
+    li {
+        list-style: none;
+
+        h5 {
+            @extend %header;
+            color: $primary-color;
+            font-size: 3.5rem;
+            margin: 0 30px;
+
+        }
+
+        p {
+            font-family: $font;
+            margin: 0 50px;
+
+        }
+    }
+
+    .inner {
+        border-left: 1px solid $primary-color;
+    }
+
+    .inner.one {
+        border-right: 1px solid $primary-color;
+        border-left: 1px solid $primary-color;
+    }
+}

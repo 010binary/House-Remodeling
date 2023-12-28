@@ -27,12 +27,15 @@ body {
 }
 
 #svgHoverEffect {
+    transition: 0.5s;
+    
+
     &:hover {
         fill: $accent-color;
     }
 }
 
-// Basic Buttons
+// Default Buttons
 %Button {
     margin-top: 2rem;
     border: none;
@@ -51,7 +54,7 @@ body {
 
 }
 
-
+// Default Header
 %header {
     font-family: $header;
     font-size: 3.1rem;
@@ -59,6 +62,53 @@ body {
 
     span {
         display: block;
+    }
+}
+
+// Default Card
+%card {
+    .card {
+        width: 200px;
+        height: 260px;
+        padding: .8em;
+        border-radius: .5rem;
+        background: #fff;
+        position: relative;
+        overflow: visible;
+
+        .card-img {
+            background-color: #ffcaa6;
+            height: 40%;
+            width: 100%;
+            border-radius: .5rem;
+            transition: .3s ease;
+        }
+
+        .card-info {
+            padding-bottom: 20%;
+
+            .text-title {
+                font-weight: 900;
+                font-size: 1.1rem;
+            }
+        }
+
+        .card-footer {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+
+            .text-date {
+                font-size: 0.7rem
+            }
+        }
+
+
+        &:hover {
+            background: gray;
+        }
     }
 }
 

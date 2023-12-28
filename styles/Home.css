@@ -17,6 +17,9 @@ body {
   padding-right: 17%;
 }
 
+#svgHoverEffect {
+  transition: 0.5s;
+}
 #svgHoverEffect:hover {
   fill: #C76904;
 }
@@ -37,7 +40,7 @@ body {
   width: 12px;
 }
 
-.projects .product .sectionA .subsection p .heading,
+.brigde li h5, .projects .product .sectionA .subsection p .heading,
 .projects .product .sectionB .subsection p .heading,
 .projects .product .sectionC .subsection p .heading,
 .projects .product .sectionD .subsection p .heading, .projects .project__intro p .heading, .reviews .section1 .heads p,
@@ -47,7 +50,7 @@ body {
   font-size: 3.1rem;
   color: #fff;
 }
-.projects .product .sectionA .subsection p .heading span,
+.brigde li h5 span, .projects .product .sectionA .subsection p .heading span,
 .projects .product .sectionB .subsection p .heading span,
 .projects .product .sectionC .subsection p .heading span,
 .projects .product .sectionD .subsection p .heading span, .projects .project__intro p .heading span, .reviews .section1 .heads p span,
@@ -69,6 +72,9 @@ body {
   padding-right: 17%;
 }
 
+#svgHoverEffect {
+  transition: 0.5s;
+}
 #svgHoverEffect:hover {
   fill: #C76904;
 }
@@ -89,7 +95,7 @@ body {
   width: 12px;
 }
 
-.projects .product .sectionA .subsection p .heading,
+.brigde li h5, .projects .product .sectionA .subsection p .heading,
 .projects .product .sectionB .subsection p .heading,
 .projects .product .sectionC .subsection p .heading,
 .projects .product .sectionD .subsection p .heading, .projects .project__intro p .heading, .reviews .section1 .heads p,
@@ -99,7 +105,7 @@ body {
   font-size: 3.1rem;
   color: #fff;
 }
-.projects .product .sectionA .subsection p .heading span,
+.brigde li h5 span, .projects .product .sectionA .subsection p .heading span,
 .projects .product .sectionB .subsection p .heading span,
 .projects .product .sectionC .subsection p .heading span,
 .projects .product .sectionD .subsection p .heading span, .projects .project__intro p .heading span, .reviews .section1 .heads p span,
@@ -326,13 +332,16 @@ header nav .navitems ul li svg {
 }
 
 .company__affiliation {
-  margin-top: 50px;
+  margin-top: 65px;
   display: flex;
 }
 .company__affiliation img {
   width: 100%;
 }
 
+.projects {
+  margin-top: 100px;
+}
 .projects .project__intro p {
   text-align: center;
   color: #292F36;
@@ -349,6 +358,7 @@ header nav .navitems ul li svg {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 40px;
   margin-left: 30px;
 }
 .projects .product .sectionA,
@@ -356,12 +366,23 @@ header nav .navitems ul li svg {
 .projects .product .sectionC,
 .projects .product .sectionD {
   width: 50%;
+  margin-bottom: 20px;
 }
 .projects .product .sectionA img,
 .projects .product .sectionB img,
 .projects .product .sectionC img,
 .projects .product .sectionD img {
   width: 90%;
+  margin-bottom: 0;
+}
+.projects .product .sectionA .subsection,
+.projects .product .sectionB .subsection,
+.projects .product .sectionC .subsection,
+.projects .product .sectionD .subsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
 }
 .projects .product .sectionA .subsection p,
 .projects .product .sectionB .subsection p,
@@ -384,4 +405,38 @@ header nav .navitems ul li svg {
   color: #292F36;
   font-size: 1.3rem;
   font-weight: 600;
+}
+.projects .product .sectionA .subsection svg,
+.projects .product .sectionB .subsection svg,
+.projects .product .sectionC .subsection svg,
+.projects .product .sectionD .subsection svg {
+  width: 40px;
+  margin-right: 40px;
+}
+
+.brigde {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 100px 0;
+}
+.brigde li {
+  list-style: none;
+}
+.brigde li h5 {
+  color: #D8A876;
+  font-size: 3.5rem;
+  margin: 0 30px;
+}
+.brigde li p {
+  font-family: "Jost", sans-serif;
+  margin: 0 50px;
+}
+.brigde .inner {
+  border-left: 1px solid #D8A876;
+}
+.brigde .inner.one {
+  border-right: 1px solid #D8A876;
+  border-left: 1px solid #D8A876;
 }/*# sourceMappingURL=Home.css.map */
