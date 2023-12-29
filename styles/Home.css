@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 *,
 *::after,
 *::before {
@@ -12,19 +9,19 @@
   box-sizing: border-box;
 }
 
-body {
+#padx {
   padding-left: 17%;
   padding-right: 17%;
 }
 
 #svgHoverEffect {
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 #svgHoverEffect:hover {
   fill: #C76904;
 }
 
-.pageTwo .textContent button, .hero .text button {
+.banner .banner__text button, .pageTwo .textContent button, .hero .text button {
   margin-top: 2rem;
   border: none;
   padding: 15px 2rem;
@@ -35,87 +32,95 @@ body {
   align-items: center;
   gap: 7px;
   color: #fff;
+  background-color: #D8A876;
+  transition: 0.5s ease-in-out;
 }
-.pageTwo .textContent button svg, .hero .text button svg {
+.banner .banner__text button:hover, .pageTwo .textContent button:hover, .hero .text button:hover {
+  background-color: #C76904;
+}
+.banner .banner__text button svg, .pageTwo .textContent button svg, .hero .text button svg {
   width: 12px;
 }
 
-.brigde li h5, .projects .product .sectionA .subsection p .heading,
+footer .preview .area__4 h6, footer .preview .area__2 h6,
+footer .preview .area__3 h6, .banner .banner__text h6, .Articles .News h6, .brigde li h5, .projects .product .sectionA .subsection p .heading,
 .projects .product .sectionB .subsection p .heading,
 .projects .product .sectionC .subsection p .heading,
 .projects .product .sectionD .subsection p .heading, .projects .project__intro p .heading, .reviews .section1 .heads p,
 .reviews .section2 .heads p,
-.reviews .section3 .heads p, .reviews h3, .pageTwo .textContent h2, .hero .text h1 {
+.reviews .section3 .heads p, .reviews h3, .pageTwo .textContent h2, .hero .text h1, .Articles .Article__post .card .card-info .text-title {
   font-family: "DM Serif Display", serif;
   font-size: 3.1rem;
   color: #fff;
 }
-.brigde li h5 span, .projects .product .sectionA .subsection p .heading span,
+footer .preview .area__4 h6 span, footer .preview .area__2 h6 span,
+footer .preview .area__3 h6 span, .banner .banner__text h6 span, .Articles .News h6 span, .brigde li h5 span, .projects .product .sectionA .subsection p .heading span,
 .projects .product .sectionB .subsection p .heading span,
 .projects .product .sectionC .subsection p .heading span,
 .projects .product .sectionD .subsection p .heading span, .projects .project__intro p .heading span, .reviews .section1 .heads p span,
 .reviews .section2 .heads p span,
-.reviews .section3 .heads p span, .reviews h3 span, .pageTwo .textContent h2 span, .hero .text h1 span {
+.reviews .section3 .heads p span, .reviews h3 span, .pageTwo .textContent h2 span, .hero .text h1 span, .Articles .Article__post .card .card-info .text-title span {
   display: block;
 }
 
-*,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.Articles .Article__post .card {
+  width: min-content;
+  padding: 1em;
+  border-radius: 40px;
+  border: 0.3px solid #E7E7E7;
+  margin-bottom: 100px;
+  transition: 0.5s ease-in-out;
 }
-
-body {
-  padding-left: 17%;
-  padding-right: 17%;
+.Articles .Article__post .card .card-img {
+  width: 250px;
+  position: relative;
 }
-
-#svgHoverEffect {
-  transition: 0.5s;
+.Articles .Article__post .card .card-img img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
-#svgHoverEffect:hover {
-  fill: #C76904;
+.Articles .Article__post .card .card-img p {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(41, 47, 54, 0.6784313725);
+  color: #fff;
+  left: 5px;
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  border-radius: 5px 0px 5px 0px;
+  transition: 0.5s ease-in-out;
 }
-
-.pageTwo .textContent button, .hero .text button {
-  margin-top: 2rem;
-  border: none;
-  padding: 15px 2rem;
-  text-transform: capitalize;
-  font-weight: 600;
-  border-radius: 10px;
+.Articles .Article__post .card .card-info .text-title {
+  font-size: 1.3rem;
+  color: #292F36;
+}
+.Articles .Article__post .card .card-footer {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 7px;
-  color: #fff;
+  height: 30px;
 }
-.pageTwo .textContent button svg, .hero .text button svg {
-  width: 12px;
+.Articles .Article__post .card .card-footer .text-date {
+  font-family: "Jost", sans-serif;
+  font-size: 0.9rem;
+  color: #292F36;
 }
-
-.brigde li h5, .projects .product .sectionA .subsection p .heading,
-.projects .product .sectionB .subsection p .heading,
-.projects .product .sectionC .subsection p .heading,
-.projects .product .sectionD .subsection p .heading, .projects .project__intro p .heading, .reviews .section1 .heads p,
-.reviews .section2 .heads p,
-.reviews .section3 .heads p, .reviews h3, .pageTwo .textContent h2, .hero .text h1 {
-  font-family: "DM Serif Display", serif;
-  font-size: 3.1rem;
-  color: #fff;
+.Articles .Article__post .card .card-footer svg {
+  width: 1.9rem;
 }
-.brigde li h5 span, .projects .product .sectionA .subsection p .heading span,
-.projects .product .sectionB .subsection p .heading span,
-.projects .product .sectionC .subsection p .heading span,
-.projects .product .sectionD .subsection p .heading span, .projects .project__intro p .heading span, .reviews .section1 .heads p span,
-.reviews .section2 .heads p span,
-.reviews .section3 .heads p span, .reviews h3 span, .pageTwo .textContent h2 span, .hero .text h1 span {
-  display: block;
+.Articles .Article__post .card:hover {
+  background: #E7E7E7;
+}
+.Articles .Article__post .card:hover .card-img p {
+  background-color: #292f36;
+}
+.Articles .Article__post .card:hover .card-footer svg #svgHoverEffect {
+  fill: #C76904;
 }
 
 header {
-  padding-top: 20px;
+  padding-top: 30px;
   font-family: "Jost", sans-serif;
 }
 header nav {
@@ -155,7 +160,7 @@ header nav .navitems ul li svg {
 }
 
 .hero {
-  margin-top: 50px;
+  margin-top: 80px;
   position: relative;
   border-radius: 90px 0px 90px 0px;
 }
@@ -179,12 +184,8 @@ header nav .navitems ul li svg {
 .hero .text p span {
   display: block;
 }
-.hero .text button {
-  background-color: #D8A876;
-}
-
 .services {
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   gap: 50px;
@@ -229,7 +230,7 @@ header nav .navitems ul li svg {
 }
 
 .pageTwo {
-  margin-top: 50px;
+  margin-top: 100px;
   position: relative;
   display: flex;
   width: 100%;
@@ -264,20 +265,17 @@ header nav .navitems ul li svg {
 .pageTwo .textContent .CallMe svg {
   width: 50px;
 }
-.pageTwo .textContent button {
-  background-color: #D8A876;
-}
-
 .reviews {
   padding: 50px 30px;
   padding-bottom: 30px;
   border-radius: 50px;
   background-color: #D8A876;
-  margin-top: 50px;
+  margin-top: 100px;
   width: 100%;
 }
 .reviews h3 {
   text-align: center;
+  padding: 40px 0;
 }
 .reviews .review__message {
   display: flex;
@@ -332,7 +330,7 @@ header nav .navitems ul li svg {
 }
 
 .company__affiliation {
-  margin-top: 65px;
+  margin: 100px 0;
   display: flex;
 }
 .company__affiliation img {
@@ -341,6 +339,9 @@ header nav .navitems ul li svg {
 
 .projects {
   margin-top: 100px;
+}
+.projects .project__intro {
+  padding-bottom: 50px;
 }
 .projects .project__intro p {
   text-align: center;
@@ -439,4 +440,102 @@ header nav .navitems ul li svg {
 .brigde .inner.one {
   border-right: 1px solid #D8A876;
   border-left: 1px solid #D8A876;
+}
+
+.Articles {
+  margin-top: 100px;
+}
+.Articles .News {
+  text-align: center;
+  padding-bottom: 70px;
+  color: #292F36;
+}
+.Articles .News h6 {
+  color: #292F36;
+}
+.Articles .News p {
+  font-family: "Jost", sans-serif;
+}
+.Articles .News p span {
+  display: block;
+}
+.Articles .Article__post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Articles .card-info .text-title span {
+  display: block;
+}
+
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+.banner .banner__text {
+  position: absolute;
+  top: 55px;
+  left: 30%;
+  right: 30%;
+  text-align: center;
+}
+.banner .banner__text p {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+}
+.banner .banner__text button {
+  display: inline-flex;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer .preview {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+footer .preview .area__1 svg {
+  margin-top: 5px;
+  width: 10rem;
+  height: 2.2rem;
+}
+footer .preview .area__1 p {
+  font-family: "Jost", sans-serif;
+  padding: 10px 0;
+  color: #292F36;
+}
+footer .preview .area__1 p span {
+  display: block;
+}
+footer .preview .area__2 h6,
+footer .preview .area__3 h6 {
+  font-size: 1.4rem;
+  color: #292F36;
+}
+footer .preview .area__2 li,
+footer .preview .area__3 li {
+  list-style: none;
+  padding: 10px 0;
+}
+footer .preview .area__2 li a,
+footer .preview .area__3 li a {
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-size: 0.9rem;
+  color: #292F36;
+}
+footer .preview .area__4 h6 {
+  font-size: 1.4rem;
+  color: #292F36;
+}
+footer .preview .area__4 p {
+  padding: 10px 0;
+  font-family: "Jost", sans-serif;
+}
+footer .copyright p {
+  text-align: center;
+  font-family: "Jost", sans-serif;
 }/*# sourceMappingURL=Home.css.map */

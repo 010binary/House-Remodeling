@@ -1,0 +1,68 @@
+footer {
+    margin-top: 50px;
+    .preview {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        .area__1 {
+            svg {
+                margin-top: 5px;
+                width: 10rem;
+                height: 2.2rem;
+            }
+
+            p {
+                font-family: $font;
+                padding: 10px 0;
+                color: $secondary-color;
+
+                span {
+                    display: block
+                }
+            }
+        }
+
+        .area__2,
+        .area__3 {
+            h6 {
+                @extend %header;
+                font-size: 1.4rem;
+                color: $secondary-color;
+            }
+
+            li {
+                list-style: none;
+                padding: 10px 0;
+
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    font-size: 0.9rem;
+                    color: $secondary-color;
+                }
+            }
+        }
+
+        .area__4 {
+            h6 {
+                @extend %header;
+                font-size: 1.4rem;
+                color: $secondary-color;
+            }
+
+            p {
+                padding: 10px 0;
+                font-family: $font;
+            }
+        }
+
+    }
+
+    .copyright {
+        p {
+            text-align: center;
+            font-family: $font;
+        }
+    }
+}

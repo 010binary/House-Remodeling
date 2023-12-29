@@ -1,5 +1,5 @@
 .pageTwo {
-    margin-top: 50px;
+    margin-top: 100px;
     position: relative;
     display: flex;
     width: 100%;
@@ -45,7 +45,7 @@
 
         button {
             @extend %Button;
-            background-color: $primary-color;
+            
         }
     }
 }
