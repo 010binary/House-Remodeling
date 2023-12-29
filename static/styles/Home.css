@@ -1,1 +1,545 @@
-@import"https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap";@import"https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap";@import"https://fonts.googleapis.com/css2?family=Inter&display=swap";*,*::after,*::before{padding:0;margin:0;box-sizing:border-box}#padx{padding-left:17%;padding-right:17%}#svgHoverEffect{transition:.5s ease-in-out;cursor:pointer}#svgHoverEffect:hover{fill:#c76904}.banner .banner__text button,.pageTwo .textContent button,.hero .text button{margin-top:2rem;border:none;padding:15px 2rem;text-transform:capitalize;font-weight:600;border-radius:10px;cursor:pointer;display:flex;align-items:center;gap:7px;color:#fff;background-color:#d8a876;transition:.5s ease-in-out;box-shadow:31px 30px 26px -1px rgba(0,0,0,.75);-webkit-box-shadow:31px 30px 26px -1px rgba(0,0,0,.75);-moz-box-shadow:31px 30px 26px -1px rgba(0,0,0,.75)}.banner .banner__text button:hover,.pageTwo .textContent button:hover,.hero .text button:hover{background-color:#c76904}.banner .banner__text button svg,.pageTwo .textContent button svg,.hero .text button svg{width:12px}footer .preview .area__4 h6,footer .preview .area__2 h6,footer .preview .area__3 h6,.banner .banner__text h6,.Articles .News h6,.brigde li h5,.projects .product .sectionA .subsection p .heading,.projects .product .sectionB .subsection p .heading,.projects .product .sectionC .subsection p .heading,.projects .product .sectionD .subsection p .heading,.projects .project__intro p .heading,.reviews .section1 .heads p,.reviews .section2 .heads p,.reviews .section3 .heads p,.reviews h3,.pageTwo .textContent h2,.hero .text h1,.Articles .Article__post .card .card-info .text-title{font-family:"DM Serif Display",serif;font-size:3.1rem;color:#fff}footer .preview .area__4 h6 span,footer .preview .area__2 h6 span,footer .preview .area__3 h6 span,.banner .banner__text h6 span,.Articles .News h6 span,.brigde li h5 span,.projects .product .sectionA .subsection p .heading span,.projects .product .sectionB .subsection p .heading span,.projects .product .sectionC .subsection p .heading span,.projects .product .sectionD .subsection p .heading span,.projects .project__intro p .heading span,.reviews .section1 .heads p span,.reviews .section2 .heads p span,.reviews .section3 .heads p span,.reviews h3 span,.pageTwo .textContent h2 span,.hero .text h1 span,.Articles .Article__post .card .card-info .text-title span{display:block}.Articles .Article__post .card{width:min-content;cursor:pointer;padding:1em;border-radius:40px;border:.3px solid #e7e7e7;margin-bottom:100px;transition:.5s ease-in-out}.Articles .Article__post .card .card-img{width:250px;position:relative}.Articles .Article__post .card .card-img img{width:100%;border-radius:.5rem}.Articles .Article__post .card .card-img p{position:absolute;bottom:20px;background-color:rgba(41,47,54,.6784313725);color:#fff;left:5px;font-size:.9rem;padding:2px 5px;border-radius:5px 0px 5px 0px;transition:.5s ease-in-out}.Articles .Article__post .card .card-info .text-title{font-size:1.3rem;color:#292f36}.Articles .Article__post .card .card-footer{width:100%;display:flex;justify-content:space-between;align-items:center;height:30px}.Articles .Article__post .card .card-footer .text-date{font-family:"Jost",sans-serif;font-size:.9rem;color:#292f36}.Articles .Article__post .card .card-footer svg{width:1.9rem}.Articles .Article__post .card:hover{background:#e7e7e7}.Articles .Article__post .card:hover .card-img p{background-color:#292f36}.Articles .Article__post .card:hover .card-footer svg #svgHoverEffect{fill:#c76904}header{padding-top:30px;font-family:"Jost",sans-serif}header nav{display:flex;justify-content:space-between}header nav .logo svg{width:10rem;height:2.2rem}header nav .navitems{width:70%}header nav .navitems ul{display:flex;align-items:center;justify-content:space-between;font-size:1.2rem;padding-top:2px;gap:10px}header nav .navitems ul li{list-style:none}header nav .navitems ul li a{text-decoration:none;color:#292f36;text-transform:capitalize}header nav .navitems ul li a.active{color:#c76904}header nav .navitems ul li svg{width:1.5rem;height:1.2em;padding-top:2px}.hero{margin-top:80px;position:relative;border-radius:90px 0px 90px 0px}.hero img{width:100%}.hero .text{position:absolute;top:10%;left:4%}.hero .text h1 span{display:block}.hero .text p{font-family:"Inter",sans-serif;margin-top:5px;color:#fff;font-size:1.2rem}.hero .text p span{display:block}.services{margin-top:100px;display:flex;justify-content:space-between;gap:50px}.services .section1,.services .section2,.services .section3{text-align:center}.services .section1 h1,.services .section2 h1,.services .section3 h1{font-size:1.4rem;font-family:"DM Serif Display",serif;font-weight:400;text-transform:capitalize}.services .section1 p,.services .section2 p,.services .section3 p{margin-top:15px;font-family:"Jost",sans-serif;letter-spacing:.033em;color:#4d5053}.services .section1 a,.services .section2 a,.services .section3 a{display:block;margin-top:15px;text-transform:capitalize;font-weight:600;font-family:"Jost",sans-serif;color:#4d5053;text-decoration:none}.services .section1 a svg,.services .section2 a svg,.services .section3 a svg{width:20px;padding-top:8px}.pageTwo{margin-top:100px;position:relative;display:flex;width:100%}.pageTwo img{width:100%}.pageTwo .textContent{position:absolute;top:20%;left:2%}.pageTwo .textContent h2{font-size:2.7rem}.pageTwo .textContent p{font-family:"Jost",sans-serif;color:#fff;font-size:1.2rem}.pageTwo .textContent p span{display:block}.pageTwo .textContent .CallMe{display:flex;align-items:center;gap:10px}.pageTwo .textContent .CallMe span{font-weight:600}.pageTwo .textContent .CallMe svg{width:50px}.reviews{padding:50px 30px;padding-bottom:30px;border-radius:50px;background-color:#d8a876;margin-top:100px;width:100%}.reviews h3{text-align:center;padding:40px 0}.reviews .review__message{display:flex;justify-content:space-between;gap:10px;margin-top:60px}.reviews .section1,.reviews .section2,.reviews .section3{padding:20px 20px;background-color:#fff;border-radius:20px;width:300px} .reviews .section1 .review__Text,.reviews .section2 .review__Text,.reviews .section3 .review__Text{letter-spacing:.061em;line-height:1.6;margin-top:15px;font-family:"Jost",sans-serif}.reviews .section1 .heads,.reviews .section2 .heads,.reviews .section3 .heads{display:flex;align-items:center;gap:10px}.reviews .section1 .heads img,.reviews .section2 .heads img,.reviews .section3 .heads img{width:50px}.reviews .section1 .heads p,.reviews .section2 .heads p,.reviews .section3 .heads p{color:#292f36;font-size:.8rem;font-weight:400}.reviews .section1 .heads p span,.reviews .section2 .heads p span,.reviews .section3 .heads p span{font-size:1.2rem;font-weight:600}.reviews .section2,.reviews .section3{margin-left:10px}.company__affiliation{margin:100px 0;display:flex}.company__affiliation img{width:100%}.projects{margin-top:100px}.projects .project__intro{padding-bottom:50px}.projects .project__intro p{text-align:center;color:#292f36;font-size:1.5rem;font-family:"Jost",sans-serif}.projects .project__intro p span{display:block}.projects .project__intro p .heading{color:#292f36}.projects .product{display:flex;flex-direction:row;flex-wrap:wrap;margin-top:40px;margin-left:30px}.projects .product .sectionA,.projects .product .sectionB,.projects .product .sectionC,.projects .product .sectionD{width:50%;margin-bottom:20px}.projects .product .sectionA img,.projects .product .sectionB img,.projects .product .sectionC img,.projects .product .sectionD img{width:90%;margin-bottom:0}.projects .product .sectionA .subsection,.projects .product .sectionB .subsection,.projects .product .sectionC .subsection,.projects .product .sectionD .subsection{display:flex;align-items:center;justify-content:space-between;margin-top:0}.projects .product .sectionA .subsection p,.projects .product .sectionB .subsection p,.projects .product .sectionC .subsection p,.projects .product .sectionD .subsection p{font-family:"Jost",sans-serif;font-size:1.3rem;color:#292f36}.projects .product .sectionA .subsection p span,.projects .product .sectionB .subsection p span,.projects .product .sectionC .subsection p span,.projects .product .sectionD .subsection p span{display:block}.projects .product .sectionA .subsection p .heading,.projects .product .sectionB .subsection p .heading,.projects .product .sectionC .subsection p .heading,.projects .product .sectionD .subsection p .heading{color:#292f36;font-size:1.3rem;font-weight:600}.projects .product .sectionA .subsection svg,.projects .product .sectionB .subsection svg,.projects .product .sectionC .subsection svg,.projects .product .sectionD .subsection svg{width:40px;margin-right:40px}.brigde{display:flex;align-items:center;justify-content:center;text-align:center;margin:100px 0}.brigde li{list-style:none}.brigde li h5{color:#d8a876;font-size:3.5rem;margin:0 30px}.brigde li p{font-family:"Jost",sans-serif;margin:0 50px}.brigde .inner{border-left:1px solid #d8a876}.brigde .inner.one{border-right:1px solid #d8a876;border-left:1px solid #d8a876}.Articles{margin-top:100px}.Articles .News{text-align:center;padding-bottom:70px;color:#292f36}.Articles .News h6{color:#292f36}.Articles .News p{font-family:"Jost",sans-serif}.Articles .News p span{display:block}.Articles .Article__post{display:flex;flex-wrap:wrap;justify-content:space-between}.Articles .card-info .text-title span{display:block}.banner{position:relative}.banner img{width:100%}.banner .banner__text{position:absolute;top:55px;left:30%;right:30%;text-align:center}.banner .banner__text p{font-family:"Jost",sans-serif;color:#fff}.banner .banner__text button{display:inline-flex}footer{margin-top:50px}footer .preview{display:flex;justify-content:space-between;margin-bottom:80px}footer .preview .area__1 svg{margin-top:5px;width:10rem;height:2.2rem}footer .preview .area__1 p{font-family:"Jost",sans-serif;padding:10px 0;color:#292f36}footer .preview .area__1 p span{display:block}footer .preview .area__2 h6,footer .preview .area__3 h6{font-size:1.4rem;color:#292f36}footer .preview .area__2 li,footer .preview .area__3 li{list-style:none;padding:10px 0}footer .preview .area__2 li a,footer .preview .area__3 li a{text-decoration:none;font-family:"Jost",sans-serif;font-size:.9rem;color:#292f36}footer .preview .area__4 h6{font-size:1.4rem;color:#292f36}footer .preview .area__4 p{padding:10px 0;font-family:"Jost",sans-serif}footer .copyright p{text-align:center;font-family:"Jost",sans-serif}/*# sourceMappingURL=Home.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#padx {
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+#svgHoverEffect {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+#svgHoverEffect:hover {
+  fill: #C76904;
+}
+
+.banner .banner__text button, .pageTwo .textContent button, .hero .text button {
+  margin-top: 2rem;
+  border: none;
+  padding: 15px 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #fff;
+  background-color: #D8A876;
+  transition: 0.5s ease-in-out;
+  box-shadow: 31px 30px 26px -1px rgba(0, 0, 0, 0.75);
+}
+.banner .banner__text button:hover, .pageTwo .textContent button:hover, .hero .text button:hover {
+  background-color: #C76904;
+}
+.banner .banner__text button svg, .pageTwo .textContent button svg, .hero .text button svg {
+  width: 12px;
+}
+
+footer .preview .area__4 h6, footer .preview .area__2 h6,
+footer .preview .area__3 h6, .banner .banner__text h6, .Articles .News h6, .brigde li h5, .projects .product .sectionA .subsection p .heading,
+.projects .product .sectionB .subsection p .heading,
+.projects .product .sectionC .subsection p .heading,
+.projects .product .sectionD .subsection p .heading, .projects .project__intro p .heading, .reviews .section1 .heads p,
+.reviews .section2 .heads p,
+.reviews .section3 .heads p, .reviews h3, .pageTwo .textContent h2, .hero .text h1, .Articles .Article__post .card .card-info .text-title {
+  font-family: "DM Serif Display", serif;
+  font-size: 3.1rem;
+  color: #fff;
+}
+footer .preview .area__4 h6 span, footer .preview .area__2 h6 span,
+footer .preview .area__3 h6 span, .banner .banner__text h6 span, .Articles .News h6 span, .brigde li h5 span, .projects .product .sectionA .subsection p .heading span,
+.projects .product .sectionB .subsection p .heading span,
+.projects .product .sectionC .subsection p .heading span,
+.projects .product .sectionD .subsection p .heading span, .projects .project__intro p .heading span, .reviews .section1 .heads p span,
+.reviews .section2 .heads p span,
+.reviews .section3 .heads p span, .reviews h3 span, .pageTwo .textContent h2 span, .hero .text h1 span, .Articles .Article__post .card .card-info .text-title span {
+  display: block;
+}
+
+.Articles .Article__post .card {
+  width: min-content;
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 40px;
+  border: 0.3px solid #E7E7E7;
+  margin-bottom: 100px;
+  transition: 0.5s ease-in-out;
+}
+.Articles .Article__post .card .card-img {
+  width: 250px;
+  position: relative;
+}
+.Articles .Article__post .card .card-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.Articles .Article__post .card .card-img p {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(41, 47, 54, 0.6784313725);
+  color: #fff;
+  left: 5px;
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  border-radius: 5px 0px 5px 0px;
+  transition: 0.5s ease-in-out;
+}
+.Articles .Article__post .card .card-info .text-title {
+  font-size: 1.3rem;
+  color: #292F36;
+}
+.Articles .Article__post .card .card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.Articles .Article__post .card .card-footer .text-date {
+  font-family: "Jost", sans-serif;
+  font-size: 0.9rem;
+  color: #292F36;
+}
+.Articles .Article__post .card .card-footer svg {
+  width: 1.9rem;
+}
+.Articles .Article__post .card:hover {
+  background: #E7E7E7;
+}
+.Articles .Article__post .card:hover .card-img p {
+  background-color: #292f36;
+}
+.Articles .Article__post .card:hover .card-footer svg #svgHoverEffect {
+  fill: #C76904;
+}
+
+header {
+  padding-top: 30px;
+  font-family: "Jost", sans-serif;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .logo svg {
+  width: 10rem;
+  height: 2.2rem;
+}
+header nav .navitems {
+  width: 70%;
+}
+header nav .navitems ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding-top: 2px;
+  gap: 10px;
+}
+header nav .navitems ul li {
+  list-style: none;
+}
+header nav .navitems ul li a {
+  text-decoration: none;
+  color: #292F36;
+  text-transform: capitalize;
+}
+header nav .navitems ul li a.active {
+  color: #C76904;
+}
+header nav .navitems ul li svg {
+  width: 1.5rem;
+  height: 1.2em;
+  padding-top: 2px;
+}
+
+.hero {
+  margin-top: 80px;
+  position: relative;
+  border-radius: 90px 0px 90px 0px;
+}
+.hero img {
+  width: 100%;
+}
+.hero .text {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+}
+.hero .text h1 span {
+  display: block;
+}
+.hero .text p {
+  font-family: "Inter", sans-serif;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.hero .text p span {
+  display: block;
+}
+.services {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.services .section1,
+.services .section2,
+.services .section3 {
+  text-align: center;
+}
+.services .section1 h1,
+.services .section2 h1,
+.services .section3 h1 {
+  font-size: 1.4rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.services .section1 p,
+.services .section2 p,
+.services .section3 p {
+  margin-top: 15px;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.033em;
+  color: #4D5053;
+}
+.services .section1 a,
+.services .section2 a,
+.services .section3 a {
+  display: block;
+  margin-top: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  color: #4D5053;
+  text-decoration: none;
+}
+.services .section1 a svg,
+.services .section2 a svg,
+.services .section3 a svg {
+  width: 20px;
+  padding-top: 8px;
+}
+
+.pageTwo {
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.pageTwo img {
+  width: 100%;
+}
+.pageTwo .textContent {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+.pageTwo .textContent h2 {
+  font-size: 2.7rem;
+}
+.pageTwo .textContent p {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.pageTwo .textContent p span {
+  display: block;
+}
+.pageTwo .textContent .CallMe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pageTwo .textContent .CallMe span {
+  font-weight: 600;
+}
+.pageTwo .textContent .CallMe svg {
+  width: 50px;
+}
+.reviews {
+  padding: 50px 30px;
+  padding-bottom: 30px;
+  border-radius: 50px;
+  background-color: #D8A876;
+  margin-top: 100px;
+  width: 100%;
+}
+.reviews h3 {
+  text-align: center;
+  padding: 40px 0;
+}
+.reviews .review__message {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 60px;
+}
+.reviews .section1,
+.reviews .section2,
+.reviews .section3 {
+  padding: 20px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 300px;
+}
+.reviews .section1 .review__Text,
+.reviews .section2 .review__Text,
+.reviews .section3 .review__Text {
+  letter-spacing: 0.061em;
+  line-height: 1.6;
+  margin-top: 15px;
+  font-family: "Jost", sans-serif;
+}
+.reviews .section1 .heads,
+.reviews .section2 .heads,
+.reviews .section3 .heads {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviews .section1 .heads img,
+.reviews .section2 .heads img,
+.reviews .section3 .heads img {
+  width: 50px;
+}
+.reviews .section1 .heads p,
+.reviews .section2 .heads p,
+.reviews .section3 .heads p {
+  color: #292F36;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.reviews .section1 .heads p span,
+.reviews .section2 .heads p span,
+.reviews .section3 .heads p span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.reviews .section2,
+.reviews .section3 {
+  margin-left: 10px;
+}
+
+.company__affiliation {
+  margin: 100px 0;
+  display: flex;
+}
+.company__affiliation img {
+  width: 100%;
+}
+
+.projects {
+  margin-top: 100px;
+}
+.projects .project__intro {
+  padding-bottom: 50px;
+}
+.projects .project__intro p {
+  text-align: center;
+  color: #292F36;
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+}
+.projects .project__intro p span {
+  display: block;
+}
+.projects .project__intro p .heading {
+  color: #292F36;
+}
+.projects .product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.projects .product .sectionA,
+.projects .product .sectionB,
+.projects .product .sectionC,
+.projects .product .sectionD {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.projects .product .sectionA img,
+.projects .product .sectionB img,
+.projects .product .sectionC img,
+.projects .product .sectionD img {
+  width: 90%;
+  margin-bottom: 0;
+}
+.projects .product .sectionA .subsection,
+.projects .product .sectionB .subsection,
+.projects .product .sectionC .subsection,
+.projects .product .sectionD .subsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+}
+.projects .product .sectionA .subsection p,
+.projects .product .sectionB .subsection p,
+.projects .product .sectionC .subsection p,
+.projects .product .sectionD .subsection p {
+  font-family: "Jost", sans-serif;
+  font-size: 1.3rem;
+  color: #292F36;
+}
+.projects .product .sectionA .subsection p span,
+.projects .product .sectionB .subsection p span,
+.projects .product .sectionC .subsection p span,
+.projects .product .sectionD .subsection p span {
+  display: block;
+}
+.projects .product .sectionA .subsection p .heading,
+.projects .product .sectionB .subsection p .heading,
+.projects .product .sectionC .subsection p .heading,
+.projects .product .sectionD .subsection p .heading {
+  color: #292F36;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.projects .product .sectionA .subsection svg,
+.projects .product .sectionB .subsection svg,
+.projects .product .sectionC .subsection svg,
+.projects .product .sectionD .subsection svg {
+  width: 40px;
+  margin-right: 40px;
+}
+
+.brigde {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 100px 0;
+}
+.brigde li {
+  list-style: none;
+}
+.brigde li h5 {
+  color: #D8A876;
+  font-size: 3.5rem;
+  margin: 0 30px;
+}
+.brigde li p {
+  font-family: "Jost", sans-serif;
+  margin: 0 50px;
+}
+.brigde .inner {
+  border-left: 1px solid #D8A876;
+}
+.brigde .inner.one {
+  border-right: 1px solid #D8A876;
+  border-left: 1px solid #D8A876;
+}
+
+.Articles {
+  margin-top: 100px;
+}
+.Articles .News {
+  text-align: center;
+  padding-bottom: 70px;
+  color: #292F36;
+}
+.Articles .News h6 {
+  color: #292F36;
+}
+.Articles .News p {
+  font-family: "Jost", sans-serif;
+}
+.Articles .News p span {
+  display: block;
+}
+.Articles .Article__post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Articles .card-info .text-title span {
+  display: block;
+}
+
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+.banner .banner__text {
+  position: absolute;
+  top: 55px;
+  left: 30%;
+  right: 30%;
+  text-align: center;
+}
+.banner .banner__text p {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+}
+.banner .banner__text button {
+  display: inline-flex;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer .preview {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+footer .preview .area__1 svg {
+  margin-top: 5px;
+  width: 10rem;
+  height: 2.2rem;
+}
+footer .preview .area__1 p {
+  font-family: "Jost", sans-serif;
+  padding: 10px 0;
+  color: #292F36;
+}
+footer .preview .area__1 p span {
+  display: block;
+}
+footer .preview .area__2 h6,
+footer .preview .area__3 h6 {
+  font-size: 1.4rem;
+  color: #292F36;
+}
+footer .preview .area__2 li,
+footer .preview .area__3 li {
+  list-style: none;
+  padding: 10px 0;
+}
+footer .preview .area__2 li a,
+footer .preview .area__3 li a {
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-size: 0.9rem;
+  color: #292F36;
+}
+footer .preview .area__4 h6 {
+  font-size: 1.4rem;
+  color: #292F36;
+}
+footer .preview .area__4 p {
+  padding: 10px 0;
+  font-family: "Jost", sans-serif;
+}
+footer .copyright p {
+  text-align: center;
+  font-family: "Jost", sans-serif;
+}/*# sourceMappingURL=Home.css.map */
