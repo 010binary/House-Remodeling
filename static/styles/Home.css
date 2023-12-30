@@ -22,7 +22,7 @@
   fill: #C76904;
 }
 
-.banner .banner__text button, .pageTwo .textContent button, .hero .text button {
+.error .error_messsage a .error__button, .banner .banner__text button, .pageTwo .textContent button, .hero .text button {
   margin-top: 2rem;
   border: none;
   padding: 15px 2rem;
@@ -38,14 +38,14 @@
   transition: 0.5s ease-in-out;
   box-shadow: 31px 30px 26px -1px rgba(0, 0, 0, 0.75);
 }
-.banner .banner__text button:hover, .pageTwo .textContent button:hover, .hero .text button:hover {
+.error .error_messsage a .error__button:hover, .banner .banner__text button:hover, .pageTwo .textContent button:hover, .hero .text button:hover {
   background-color: #C76904;
 }
-.banner .banner__text button svg, .pageTwo .textContent button svg, .hero .text button svg {
+.error .error_messsage a .error__button svg, .banner .banner__text button svg, .pageTwo .textContent button svg, .hero .text button svg {
   width: 12px;
 }
 
-footer .preview .area__4 h6, footer .preview .area__2 h6,
+.error .error_messsage .error__header, footer .preview .area__4 h6, footer .preview .area__2 h6,
 footer .preview .area__3 h6, .banner .banner__text h6, .Articles .News h6, .brigde li h5, .projects .product .sectionA .subsection p .heading,
 .projects .product .sectionB .subsection p .heading,
 .projects .product .sectionC .subsection p .heading,
@@ -56,7 +56,7 @@ footer .preview .area__3 h6, .banner .banner__text h6, .Articles .News h6, .brig
   font-size: 3.1rem;
   color: #fff;
 }
-footer .preview .area__4 h6 span, footer .preview .area__2 h6 span,
+.error .error_messsage .error__header span, footer .preview .area__4 h6 span, footer .preview .area__2 h6 span,
 footer .preview .area__3 h6 span, .banner .banner__text h6 span, .Articles .News h6 span, .brigde li h5 span, .projects .product .sectionA .subsection p .heading span,
 .projects .product .sectionB .subsection p .heading span,
 .projects .product .sectionC .subsection p .heading span,
@@ -126,10 +126,18 @@ footer .preview .area__3 h6 span, .banner .banner__text h6 span, .Articles .News
 header {
   padding-top: 30px;
   font-family: "Jost", sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #fff;
 }
 header nav {
   display: flex;
   justify-content: space-between;
+}
+header nav .logo {
+  margin-bottom: 15px;
 }
 header nav .logo svg {
   width: 10rem;
@@ -164,7 +172,7 @@ header nav .navitems ul li svg {
 }
 
 .hero {
-  margin-top: 80px;
+  margin-top: 50px;
   position: relative;
   border-radius: 90px 0px 90px 0px;
 }
@@ -542,4 +550,66 @@ footer .preview .area__4 p {
 footer .copyright p {
   text-align: center;
   font-family: "Jost", sans-serif;
+}
+
+.error {
+  padding-top: 50px;
+  position: relative;
+}
+.error .error__img img {
+  width: 50%;
+}
+.error .error_messsage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+.error .error_messsage .error__header {
+  color: #D8A876;
+  font-size: 10rem;
+}
+.error .error_messsage .error__description {
+  font-family: "Jost", sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 0.057em;
+}
+.error .error_messsage .error__description span {
+  display: block;
+}
+.error .error_messsage a {
+  color: none;
+  text-decoration: none;
+}
+.error .error_messsage a .error__button {
+  background-color: #292F36;
+  box-shadow: none;
+}
+.error .error_messsage a .error__button:hover {
+  background-color: #4D5053;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container .mySlides {
+  display: none;
+  height: 100px;
+  background-color: burlywood;
+  width: 100%;
+}
+.slideshow-container .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=Home.css.map */

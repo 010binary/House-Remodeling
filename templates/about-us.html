@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+<!-- carosel -->
+{% block carosel %} {% include "./components/carosel.html" %} {% endblock %}
+
+<!-- body of the paper -->
+{% block body %}
+
+<!-- quote -->
+<div class="quote">
+  <p class="quote__text">
+    <span> I like an interior that defies labeling. I don't </span>
+    <span>really want someone to walk into a room and </span>
+    <span> know that I did it</span>
+  </p>
+  <p class="quote__ref">BUNNY WILLIAMS</p>
+</div>
+
+<!-- What we do section (WWD) -->
+<div class="WWD">
+  <section class="WWD__text"></section>
+  <section class="WWD__img"></section>
+</div>
+
+<!-- The End Result section (TER) -->
+<div class="TER">
+  <section class="TER__img"></section>
+  <section class="TER__text"></section>
+</div>
+<!-- reviews -->
+{% include "./components/reviews.html" %} {% endblock %}

@@ -1,0 +1,53 @@
+.error {
+    padding-top: 50px;
+    position: relative;
+
+    .error__img {
+
+        img {
+            width: 50%;
+        }
+
+    }
+
+    .error_messsage {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+
+        .error__header {
+            @extend %header;
+            color: $primary-color;
+            font-size: 10rem;
+        }
+
+        .error__description {
+            font-family: $font;
+            font-size: 1.7rem;
+            font-weight: bold;
+            letter-spacing: 0.057em;
+
+            span {
+                display: block;
+            }
+        }
+
+        a {
+            color: none;
+            text-decoration: none;
+
+            .error__button {
+                @extend %Button;
+                background-color: $secondary-color;
+                box-shadow: none;
+
+                svg {}
+
+                &:hover {
+                    background-color: $gray;
+                }
+            }
+        }
+    }
+}

@@ -1,17 +1,25 @@
 header {
     padding-top: 30px;
     font-family: $font;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: $white;
+
+
 
     nav {
         display: flex;
         justify-content: space-between;
-
 
         .logo {
             svg {
                 width: 10rem;
                 height: 2.2rem;
             }
+
+            margin-bottom: 15px;
         }
 
         .navitems {

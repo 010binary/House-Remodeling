@@ -1,0 +1,34 @@
+{% extends 'base.html' %} {% block title %}Error{% endblock %} {% block body %}
+<div class="error">
+  <section class="error__img">
+    <img
+      src="{{ url_for('static', filename='Images/Error.jpg') }}"
+      alt="Error image" />
+  </section>
+  <section class="error_messsage">
+    <p class="error__header">404</p>
+    <p class="error__description">
+      <span>We are sorry, but the page you</span>
+      <span>requested was not found</span>
+    </p>
+    <a href="{{ url_for('home') }}">
+      <button class="error__button">
+        back to home
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="17"
+          fill="none"
+          viewBox="0 0 18 17">
+          <path
+            stroke="#D8A876"
+            stroke-linecap="square"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 8.435 14.723 8.3M9.618 1.91l6.523 6.523-6.654 6.655" />
+        </svg>
+      </button>
+    </a>
+  </section>
+</div>
+{% endblock %} {% block footer %} {% endblock %}

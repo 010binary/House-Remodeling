@@ -1,5 +1,5 @@
 .hero {
-    margin-top: 80px;
+    margin-top: 50px;
     position: relative;
     border-radius: 90px 0px 90px 0px;
 
@@ -33,7 +33,7 @@
 
         button {
             @extend %Button;
-            
+
         }
     }
 }
