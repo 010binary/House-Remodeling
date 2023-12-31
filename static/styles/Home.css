@@ -45,7 +45,7 @@
   width: 12px;
 }
 
-.error .error_messsage .error__header, footer .preview .area__4 h6, footer .preview .area__2 h6,
+.des .centered_text, .error .error_messsage .error__header, footer .preview .area__4 h6, footer .preview .area__2 h6,
 footer .preview .area__3 h6, .banner .banner__text h6, .Articles .News h6, .brigde li h5, .projects .product .sectionA .subsection p .heading,
 .projects .product .sectionB .subsection p .heading,
 .projects .product .sectionC .subsection p .heading,
@@ -56,7 +56,7 @@ footer .preview .area__3 h6, .banner .banner__text h6, .Articles .News h6, .brig
   font-size: 3.1rem;
   color: #fff;
 }
-.error .error_messsage .error__header span, footer .preview .area__4 h6 span, footer .preview .area__2 h6 span,
+.des .centered_text span, .error .error_messsage .error__header span, footer .preview .area__4 h6 span, footer .preview .area__2 h6 span,
 footer .preview .area__3 h6 span, .banner .banner__text h6 span, .Articles .News h6 span, .brigde li h5 span, .projects .product .sectionA .subsection p .heading span,
 .projects .product .sectionB .subsection p .heading span,
 .projects .product .sectionC .subsection p .heading span,
@@ -522,6 +522,12 @@ footer .preview .area__1 p {
 footer .preview .area__1 p span {
   display: block;
 }
+footer .preview .area__1 .footer__icon {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 footer .preview .area__2 h6,
 footer .preview .area__3 h6 {
   font-size: 1.4rem;
@@ -591,14 +597,14 @@ footer .copyright p {
 }
 
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
 }
 .slideshow-container .mySlides {
   display: none;
-  height: 100px;
-  background-color: burlywood;
+  overflow: hidden;
+  width: 100%;
+}
+.slideshow-container .mySlides img {
   width: 100%;
 }
 .slideshow-container .fade {
@@ -612,4 +618,41 @@ footer .copyright p {
   to {
     opacity: 1;
   }
+}
+
+.quote {
+  margin: 40px 20%;
+  border-left: 3px solid #292F36;
+  border-right: 3px solid #292F36;
+}
+.quote .quote__text {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  color: #292F36;
+  font-size: 1.2rem;
+  line-height: 1.7em;
+  letter-spacing: 0.007em;
+}
+.quote .quote__text span {
+  display: block;
+}
+.quote .quote__ref {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  color: #292F36;
+  font-size: 1.2rem;
+  line-height: 1.7em;
+  letter-spacing: 0.007em;
+}
+
+.des {
+  position: relative;
+}
+.des .centered_text {
+  position: absolute;
+  top: 40%;
+  text-transform: capitalize;
+  left: 42.5%;
+  font-size: 3.5rem;
 }/*# sourceMappingURL=Home.css.map */

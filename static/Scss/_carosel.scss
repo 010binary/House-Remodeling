@@ -1,53 +1,16 @@
 .slideshow-container {
-    max-width: 1000px;
     position: relative;
-    margin: auto;
-
 
     // Hide image in the beginning
     .mySlides {
         display: none;
-        height: 100px;
-        background-color: burlywood;
+        overflow: hidden;
         width: 100%;
-        // img{
-        //     width: 100%;
-        // }
+
+        img {
+            width: 100%;
+        }
     }
-
-    //buttons
-    // .prev,
-    // .next {
-    //     cursor: pointer;
-    //     position: absolute;
-    //     top: 50%;
-    //     width: auto;
-    //     margin-top: -22px;
-    //     padding: 16px;
-    //     color: black; // color for the buttons
-    //     font-weight: bold;
-    //     font-size: 18px;
-    //     transition: 0.6s ease;
-    //     border-radius: 0 3px 3px 0;
-    //     user-select: none;
-
-    //     // On hover, add a black background color with a little bit see-through
-    //     &:hover {
-    //         background-color: rgba(0, 0, 0, 0.8);
-    //     }
-    // }
-
-    // // Positioning of the next button
-    // .next {
-    //     right: 0;
-    //     border-radius: 3px 0 0 3px;
-    // }
-
-    // .active {
-    //     &:hover {
-    //         background-color: #717171;
-    //     }
-    // }
 
     // Animation God abeg 
     .fade {

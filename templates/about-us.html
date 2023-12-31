@@ -1,7 +1,15 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} !-- Css link -->
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='styles/quote.css') }}" />
 
 <!-- carosel -->
-{% block carosel %} {% include "./components/carosel.html" %} {% endblock %}
+{% block carosel %}
+<div class="des">
+  {% include "./components/carosel.html" %}
+  <p class="centered_text">about us</p>
+</div>
+{% endblock %}
 
 <!-- body of the paper -->
 {% block body %}

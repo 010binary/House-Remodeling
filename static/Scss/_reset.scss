@@ -23,10 +23,10 @@ $paragraph: 'Inter', sans-serif;
 
 @import './Custom';
 
-@media(prefers-color-scheme:dark){
+
+@media(prefers-color-scheme:dark) {
     $white: #000;
     $primary-color: #D8A876;
     $secondary-color: #dae0e7;
     $accent-color: #C76904;
 }
-

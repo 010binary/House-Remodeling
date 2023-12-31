@@ -10,5 +10,5 @@ function showSlides() {
     slideNumber++;
     if (slideNumber > slides.length) { slideNumber = 1 }
     slides[slideNumber - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Changes image every 2 seconds
+    setTimeout(showSlides, 5000); // Changes image every 2 seconds
 }

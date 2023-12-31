@@ -1,0 +1,43 @@
+.quote {
+    margin: 40px 20%;
+    border-left: 3px solid $secondary-color;
+    border-right: 3px solid $secondary-color;
+
+    .quote__text {
+        text-align: center;
+        font-family: $header;
+        font-weight: 600;
+        color: $secondary-color;
+        font-size: 1.2rem;
+        line-height: 1.7em;
+        letter-spacing: 0.007em;
+
+        span {
+            display: block;
+
+        }
+    }
+
+    .quote__ref {
+        font-family: $font;
+        text-align: center;
+        color: $secondary-color;
+        font-size: 1.2rem;
+        line-height: 1.7em;
+        letter-spacing: 0.007em;
+    }
+}
+
+//styling for the About text in the carosel
+.des {
+    position: relative;
+
+    .centered_text {
+        @extend %header;
+        position: absolute;
+        top: 40%;
+        text-transform: capitalize;
+        left: 42.5%;
+        font-size: 3.5rem;
+    }
+}

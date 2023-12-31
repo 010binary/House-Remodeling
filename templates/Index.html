@@ -3,7 +3,7 @@
 <!-- Hero section -->
 <div class="hero">
   <img
-    src="{{ url_for('static', filename='Images/rectangle1.jpg') }}"
+    src="{{ url_for('static', filename='Images/others/heroimg.jpg') }}"
     alt="Hero image" />
   <section class="text">
     <h1><span>Let's make your</span> <span>home beautiful together</span></h1>
@@ -182,7 +182,7 @@
   <section class="product">
     <section class="sectionA">
       <img
-        src="{{ url_for('static', filename='Images/Product1.svg') }}"
+        src="{{ url_for('static', filename='Images/Product/Product1.svg') }}"
         alt="Product" />
       <section class="subsection">
         <p>
@@ -209,7 +209,7 @@
 
     <section class="sectionB">
       <img
-        src="{{ url_for('static', filename='Images/Product2.svg') }}"
+        src="{{ url_for('static', filename='Images/Product/Product2.svg') }}"
         alt="Product" />
       <section class="subsection">
         <p>
@@ -236,7 +236,7 @@
 
     <section class="sectionC">
       <img
-        src="{{ url_for('static', filename='Images/Product3.svg') }}"
+        src="{{ url_for('static', filename='Images/Product/Product3.svg') }}"
         alt="Product" />
       <section class="subsection">
         <p>
@@ -263,7 +263,7 @@
 
     <section class="sectionD">
       <img
-        src="{{ url_for('static', filename='Images/Product4.svg') }}"
+        src="{{ url_for('static', filename='Images/Product/Product4.svg') }}"
         alt="Product" />
       <section class="subsection">
         <p>
@@ -312,7 +312,7 @@
     <div class="card">
       <section class="card-img">
         <img
-          src="{{ url_for('static', filename='Images/Article1.svg') }}"
+          src="{{ url_for('static', filename='Images/Article/Article1.svg') }}"
           alt="Article" />
         <p>Kitchen Design</p>
       </section>
@@ -346,7 +346,7 @@
     <div class="card">
       <section class="card-img">
         <img
-          src="{{ url_for('static', filename='Images/Article2.svg') }}"
+          src="{{ url_for('static', filename='Images/Article/Article2.svg') }}"
           alt="Article" />
         <p>Living Design</p>
       </section>
@@ -380,7 +380,7 @@
     <div class="card">
       <section class="card-img">
         <img
-          src="{{ url_for('static', filename='Images/Article3.svg') }}"
+          src="{{ url_for('static', filename='Images/Article/Article3.svg') }}"
           alt="Article" />
         <p>Interior Design</p>
       </section>
@@ -413,4 +413,5 @@
   </section>
 </div>
 
-{% endblock %} {% block banner %} {% include "./components/banner.html" %} {% endblock %}
+{% endblock %} {% block banner %} {% include "./components/banner.html" %} {%
+endblock %}
