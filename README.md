@@ -10,7 +10,8 @@ The Design was gotten from Figma
 - HTML
 - CSS
 - JavaScript
-- Flask
+- Flask 
+- Flask (CORS)
 
 ## Setup Instructions
 1. Clone the repository using `git clone [repository URL]`.
